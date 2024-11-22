@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python Debugger: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/saraabdelhafid/Desktop/Thesis/PFE",
+      "program": "/Users/saraabdelhafid/Desktop/Thesis/PFE/build/Debug/outDebug"
+    }
+  ]
+}
