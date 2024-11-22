@@ -34,7 +34,7 @@ touch /Volumes/bootfs/ssh
 sudo vim /etc/hosts 
 ssh-keygen -f ~/.ssh/known_hosts  
 vim wpa__supplicant.conf   
- cd /Volumes/bootfs   
+cd /Volumes/bootfs   
 cd /Volumes/bootfs  
 
 
@@ -42,6 +42,10 @@ cd /Volumes/bootfs
 github 
 git init
 
+git config --global user.email "sara23.abdelhafid@google.com"
+git config --global user.name "Sara-Meriem-Abdelhafid"
+
+git remote -v 
 rm -rf .git
 git init
 git add Notes.txt 
@@ -50,3 +54,13 @@ git remote add origin https://github.com/Sara-Meriem-Abdelhafid/Speechy_From_Mac
 git push -u origin main
 git branch  
 git push -u origin master
+git pull origin main  
+git status
+git pull origin master
+git push origin master --force
+git fetch origin
+git rebase origin/master
+git status 
+git rebase --continue
+git add Software/IA
+git status 
