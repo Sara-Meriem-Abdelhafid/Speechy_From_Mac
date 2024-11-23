@@ -49,16 +49,18 @@ git config --global user.name "Sara-Meriem-Abdelhafid"
 Username for 'https://github.com': Sara-Meriem-Abdelhafid
 sarasara2020A#, sarasara2020A
 Password for 'https://Sara-Meriem-Abdelhafid@github.com':
-
-
 git config --global credential.helper store
 ssh-keygen -t ed25519 -C "sara23.abdelhafid@google.com"
+
 
 
 
 git remote -v
 rm -rf .git
 git branch  
+git restore --staged Software/IA
+
+
 
 
 git init
