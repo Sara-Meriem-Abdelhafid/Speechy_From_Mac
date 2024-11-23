@@ -1,11 +1,3 @@
 #Software/IA/archive.zip
 #Software/IA/mental health/
-<<<<<<< HEAD
-Software/IA
-=======
-
-#Software/IA/*.tmp
-#Software/IA/*.bin
-Software/
-
->>>>>>> 28b33c2 (update .gitignore)
+#Software/IA
