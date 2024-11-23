@@ -49,6 +49,8 @@ git config --global user.name "Sara-Meriem-Abdelhafid"
 Username for 'https://github.com': Sara-Meriem-Abdelhafid
 sarasara2020A#, sarasara2020A
 Password for 'https://Sara-Meriem-Abdelhafid@github.com':
+
+
 git config --global credential.helper store
 ssh-keygen -t ed25519 -C "sara23.abdelhafid@google.com"
 
@@ -152,6 +154,13 @@ Software/IA/*.bin
 git add .gitignore
 git commit -m "Update .gitignore to exclude unnecessary files"
 git status
+
+git commit --amend --no-edit # After removing the secret, update the commit history to remove the secret completely:
+
+bash
+Copier le code
+
+
 
 '''
 fatal: refusing to merge unrelated histories:
@@ -284,5 +293,8 @@ UUID=8fc1b2f2-373d-40b8-8fd6-e2e36c171b35 /mnt/hd2 ext4 defaults 0 1
 
 sudo unmount /mnt/hd1 # to unmount the hard disk
 sudo rmdir  /mnt/hd1 # to remove the hard disk
+
+
+
 
 '''
