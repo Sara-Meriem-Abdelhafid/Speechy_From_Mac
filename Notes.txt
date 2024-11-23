@@ -28,6 +28,10 @@ network={
     psk="abdelhafid2023A@abd"
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3dfc7ae (add every thing except Software puted in .gitignore)
 touch ssh
 touch /Volumes/bootfs/ssh     
 
@@ -40,6 +44,7 @@ cd /Volumes/bootfs
 
 
 github 
+<<<<<<< HEAD
 git init
 
 git config --global user.email "sara23.abdelhafid@google.com"
@@ -47,20 +52,129 @@ git config --global user.name "Sara-Meriem-Abdelhafid"
 
 git remote -v 
 rm -rf .git
+=======
+
+
+git config --global user.email "sara23.abdelhafid@google.com"
+git config --global user.name "Sara-Meriem-Abdelhafid"
+Username for 'https://github.com': Sara-Meriem-Abdelhafid
+sarasara2020A#, sarasara2020A
+Password for 'https://Sara-Meriem-Abdelhafid@github.com':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
+git config --global credential.helper store
+ssh-keygen -t ed25519 -C "sara23.abdelhafid@google.com"
+
+
+
+git remote -v
+rm -rf .git
+git branch  
+
+
+>>>>>>> 3dfc7ae (add every thing except Software puted in .gitignore)
 git init
 git add Notes.txt 
 git commit -m "add Notes.txt "
 git remote add origin https://github.com/Sara-Meriem-Abdelhafid/Speechy_From_Mac.git
 git push -u origin main
+<<<<<<< HEAD
 git branch  
 git push -u origin master
 git pull origin main  
 git status
 git pull origin master
 git push origin master --force
+=======
+git push -u origin master
+git push origin master --force
+
+git pull origin main  
+
+
+#Install Git LFS:
+sudo apt install git-lfs
+git lfs install
+
+
+Track the large file:
+git lfs track "text_to_speech/lid.176.bin"
+git lfs track "*.file_extension"
+git commit -m "Track large files with Git LFS"
+git rm --cached path/to/large-file
+
+#Add the .gitattributes file created by Git LFS:
+git add .gitattributes text_to_speech/lid.176.bin
+git commit -m "Remove large files"
+git push origin master
+
+
+
+
+
+>>>>>>> 3dfc7ae (add every thing except Software puted in .gitignore)
 git fetch origin
 git rebase origin/master
 git status 
 git rebase --continue
 git add Software/IA
+<<<<<<< HEAD
 git status 
+=======
+git status 
+
+
+git add -A
+git commit -m "Describe the changes you made here"
+
+nano .gitignore
+Software/IA/*.tmp
+Software/IA/*.bin
+git add .gitignore
+git commit -m "Update .gitignore to exclude unnecessary files"
+git status
+
+
+
+
+rm -rf .git
+git init
+git status
+git add Note_book.txt
+git commit -m "add Note_book.txt"
+git remote add origin https://github.com/Sara-Meriem-Abdelhafid/Speechy_From_Raspberry.git
+git pull origin master  
+git push -u origin master
+git push origin master --force
+
+
+git remote -v 
+
+git branch  
+
+
+# Install Git LFS:
+sudo apt install git-lfs
+git lfs install
+
+Track the large file:
+git lfs track "text_to_speech/lid.176.bin"
+
+Add the .gitattributes file created by Git LFS:
+git add .gitattributes text_to_speech/lid.176.bin
+git commit -m "Track large file with Git LFS"
+
+Push your changes:
+git push origin master
+
+
+git add -A
+git commit -m "Describe the changes you made here"
+
+
+nano .gitignore
+Software/IA/*.tmp
+Software/IA/*.bin
+git add .gitignore
+git commit -m "Update .gitignore to exclude unnecessary files"
+git status
+
+>>>>>>> 3dfc7ae (add every thing except Software puted in .gitignore)
