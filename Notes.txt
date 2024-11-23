@@ -1,4 +1,16 @@
 '''
+
+Other Common Symbols in Git (VS Code)
+Here are some other signs you may see in VS Code's Source Control view and their meanings:
+
+A (Added): The file is newly added and staged for a commit.
+D (Deleted): The file has been deleted and is staged for a commit.
+U (Untracked): The file is new, untracked by Git, and not staged for a commit.
+R (Renamed): The file has been renamed and is staged for a commit.
+C (Copied): The file has been copied to a new location and is staged for a commit.
+? (Untracked): The file is not tracked by Git (similar to U).
+M (Modified): The file has been edited in your working directory but has not yet been staged for a commit.
+
 Raspberry Pi
 
 raspberrypi4.local
